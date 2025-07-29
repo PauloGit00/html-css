@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(153, 152, 152);
+}
+
+mark {
+    background-color: rgb(148, 6, 204);
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: blue;
+    margin: -10px;
+    padding: 10px;
+    height: 160px;
+}
+
+.projeto {
+    color: white;
+    text-align: center;
+    display: block;
+}

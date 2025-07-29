@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+body {
+    background-image: linear-gradient(to right, #3F755C, #354B41);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#começo {
+    text-align: center;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    color: white;
+}
+#principal {
+    color: rgb(63, 187, 63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.basico {
+    color: #a0c497;
+    font-weight: bold;
+}
+
+.avancado {
+    color: #97c1c4;
+}

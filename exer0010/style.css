@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+    background-image: linear-gradient(to right, #3CA071, #0AF587);
+}
+
+div:hover {
+    background-color: aqua;
+    }
+    
+.primeiro {
+    text-align: center;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.segundo {
+    text-align: center;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.terceiro {
+    text-align: center;
+    background-color: white;
+     height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}

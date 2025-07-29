@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+     body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(129, 127, 127);
+            margin: 0px;
+        }
+
+        header {
+            text-align: center;
+            background-color: white;
+            padding: 8px;
+            padding-bottom: 20px;
+            margin: 10px;
+        }
+
+        .titulo {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+            
+        }
+        
+        #assuntos {
+            background-color: lightgray;
+            padding: 10px;
+            padding-bottom: 0px;
+
+        }
+
+        .azar {
+            text-align: center;
+            text-decoration: bold;
+            font-size: 30px;
+            background-color: black;
+            width: 200px;
+            margin: auto;
+            color: white;
+            box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.432);
+        }
+        
+        .cores {
+            background-color: rgb(94, 90, 90);
+            color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+        
+    
+        nav a {
+            background-color: black;
+            color: white;
+            width: 90px;
+            padding: 10px;
+            text-decoration: none;
+            margin-left: 10px;
+            box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.432);
+        }
+        a:hover {
+            color: yellow;
+        }
+
+        main {
+            background-color: white;
+            padding: 8px;
+            margin: 5px;
+            justify-content: justify;
+            border-radius: 14px 20px 20px 14px;
+            box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.459);
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px 5px;
+        }
+
+
+        article aside {
+            background-color: rgb(160, 160, 160);
+            text-align: center;
+            width: 300px;
+            margin: auto; 
+            box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.445); 
+
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            width: 300px;
+            margin: auto;
+            margin-top: 10px;
+        }
