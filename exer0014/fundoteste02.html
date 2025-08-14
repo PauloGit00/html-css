@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        #container {
+            height: 100vh;
+            background: blue url(Imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+            position: relative;
+
+        }
+
+        #conteudo {
+            position: absolute;
+            background: yellow url(Imagens/wallpaper006.jpg) center center no-repeat fixed;
+            background-size: cover;
+            border-radius: 10px;
+            width: 400px;
+            height: 400px;
+
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.349);
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        #conteudo h1 {
+            
+            margin-top: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+
+    <title>Teste de centralizaçãp o de imagem de fundo</title>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <h1>Hello Word</h1>
+        </article>
+    </section>
+</body>
+</html>
