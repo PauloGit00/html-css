@@ -44,6 +44,31 @@
             text-align: center;
         }
         
+        .quarta {
+            th {
+                background-color: gray;
+                color: white;
+            }
+
+            .titulo {
+                font-weight: bold;
+                color: white;
+            }
+
+            .titulo th {
+                text-align: left;
+            }
+
+            .titulo td {
+                background-color: gray;
+            }
+
+            .normal {
+                background-color: transparent;
+                color: black;
+            }
+        
+        }
     </style>
 </head>
 <body>
@@ -118,14 +143,21 @@
     <h1>Terceira Tabela</h1>
     <table class="terceira">
         <tr>
-            <th>Grupos</th>
-            <th>Nomes</th>
-            <th colspan="3">Filmes</th>
+            <tfoot>
+                <th colspan="4" scope="row ">Total</th>
+                <td>1000</td>
+            </tfoot>
+        </tr>
+
+        <tr>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
 
         </tr>
 
         <tr>
-            <th rowspan="3">Mulheres</th>
+            <th rowspan="3" scope="rowgroup">Mulheres</th>
             <td>Ana Maria Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -148,7 +180,7 @@
         </tr>
 
         <tr>
-            <th rowspan="3">Homens</th>
+            <th rowspan="3" scope="rowgroup">Homens</th>
             <td>Bruno Mendonça</td>
             <td>Intocaveis</td>
             <td>Amnesia</td>
@@ -169,6 +201,79 @@
             <td>Taxi Driver</td>
             <td>Toy Story</td>
         </tr>
+    </table>
+
+    <h1>Quarta Tabela</h1>
+    <table class="quarta">
+        <thead>
+            <tr>
+                <th rowspan="2"  scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplina</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+
+            <tbody>
+                <tr>
+                    <th rowspan="4" class="normal" scope="rowgroup">Exatas</th>
+                    <td>Matématica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <td>Física</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <td>Química</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <td>Biologia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr class="titulo" scope="row">
+                    <th colspan="4" >Média de Exatas</th>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="2" class="normal" scope="rowgroup">Humanas</th>
+                    <td>historia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <td>Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr class="titulo">
+                    <th colspan="4" scope="row">Média de Humanas</th>
+                    <td>0.0</td>
+                </tr>
+            </tbody>
+        </thead>
+
     </table>
 </body>
 </html>
