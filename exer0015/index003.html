@@ -68,6 +68,16 @@
                 color: black;
             }
         
+            col.destaque {
+                background-color: rgb(155, 116, 192);
+            }
+
+            col.color {
+                background-color: red;
+            }
+            col.cores {
+                background-color: yellow;
+            }
         }
     </style>
 </head>
@@ -205,6 +215,12 @@
 
     <h1>Quarta Tabela</h1>
     <table class="quarta">
+        <colgroup>
+            <col class="destaque">
+            <col class="cores">
+            <col class="color" span="3">
+        </colgroup>
+        
         <thead>
             <tr>
                 <th rowspan="2"  scope="col">Área</th>
@@ -216,6 +232,7 @@
                 <th scope="col">Nota 1</th>
                 <th scope="col">Nota 2</th>
             </tr>
+        </thead>
 
             <tbody>
                 <tr>
@@ -272,7 +289,6 @@
                     <td>0.0</td>
                 </tr>
             </tbody>
-        </thead>
 
     </table>
 </body>
