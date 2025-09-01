@@ -10,6 +10,10 @@
     padding: 0px;
 }
 
+body {
+    font-family: ari;
+}
+
 header {
     background-color: var(--cor-destque);
     padding: 20px;
@@ -19,8 +23,37 @@ header {
 header h1 {
     text-align: center;
     margin-top: 70px;
+    font-size: 10vh;
 }
 
 header p{
     text-align: center;
+    font-size: 3vh;
+}
+
+.links {
+    background-color: var(--cor-destque);
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.links a {
+    color: white;
+}
+
+#destaque h2{
+    font-size: 4vh;
+    background-color: var(--cor-destque);
+    margin-top: 20px;
+    color: var(--cor-padrao);
+    padding: 10px;
+}
+
+article h3 {
+    font-weight: bold;
+    color: red;
+    font-size: 3vh;
+    text-align: center;
+    padding: 20px;
 }
