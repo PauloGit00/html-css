@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+:root {
+    --cor-destque:#E61207;
+    --cor-padrao:#f8f8f8;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor-destque);
+    padding: 20px;
+    height: 250px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+header p{
+    text-align: center;
+}
