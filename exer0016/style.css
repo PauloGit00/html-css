@@ -35,13 +35,28 @@ header p{
 
 .links {
     background-color: var(--cor-destque);
-    list-style: none;
-    text-align: center;
     padding: 10px;
 }
 
+.links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
 .links a {
+    font-size: 2vh ;
     color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    background-color: var(--cor-padrao);
+    padding: 7px;
+    color: var(--cor-destque);
+    border-radius: 7px;
 }
 
 #destaque h2{
