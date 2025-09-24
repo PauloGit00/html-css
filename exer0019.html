@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4 url(https://i.pinimg.com/736x/fd/fa/a5/fdfaa5dfd4e19b07adf7bdbee9b32ead.jpg) no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background: #fff;
+            padding: 20px 40px;
+            width: 340px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.356);
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input, select {
+           width: 100%;
+           padding: 8px;
+           border-radius: 5px;
+           border: 1px solid #ccc;
+           outline: none;
+        }
+
+        input:focus, select:focus {
+            border-color: #007bff;
+        }
+
+        .btn {
+            width: 100%;
+            margin-top: 10px;
+            padding: 7px;
+            border: none;
+            background: #007bff;
+            border-radius: 7px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Cadastro</h2>
+        <form action="#" method="post" autocomplete="on">
+            <div>
+                <label for="inome">Nome: </label>
+                <input type="text" name="Nome" id="inome" minlength="5" maxlength="30" required placeholder="Digite seu nome aqui">
+            </div>
+            <div>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="email" id="iemail" required placeholder="Digite seu nome aqui">
+            </div>
+
+            <div> 
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" placeholder="(xx) xxxx-xxxx">
+            </div>
+            <div>
+                <label for="isen">Senha: </label>
+                <input type="password" name="Senha" id="isen" required placeholder="Digite sua senha aqui">
+            </div>
+            <div>
+                <label for="igen">Gênero: </label>
+                <select name="genero" id="genero">
+                    <option value="">Selecione</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">feminino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
